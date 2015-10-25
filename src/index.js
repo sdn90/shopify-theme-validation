@@ -32,9 +32,9 @@ export function hasContentTags(directory) {
     return themeFile.match(pattern);
   });
 
-  if  (matches.includes(null)) {
+  if (matches.includes(null)) {
     return false;
   } else {
     return true;
-  };
+  }
 }

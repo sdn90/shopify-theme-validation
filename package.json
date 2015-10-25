@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha --compilers js:babel/register",
     "build": "babel src --out-dir lib",
-    "watch": "babel src --out-dir lib --watch"
+    "watch": "babel src --out-dir lib --watch",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "MIT",

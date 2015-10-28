@@ -2,7 +2,7 @@
   "name": "shopify-theme-validation",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
     "build": "babel src --out-dir lib",

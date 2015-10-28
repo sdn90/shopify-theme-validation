@@ -38,3 +38,11 @@ export function hasContentTags(directory) {
     return true;
   }
 }
+
+export function isValid(directory) {
+  if (isTheme(directory) && hasContentTags(directory)) {
+    return true;
+  } else {
+    return false;
+  }
+}
